@@ -19,9 +19,9 @@ ENV/
 env.bak/
 venv.bak/
 
-# Ignore Python scripts in the notebooks folder
-notebooks/*.py
-
+# Track notebooks folder but ignore its contents
+notebooks/*
+!notebooks/.gitkeep
 # VS Code / IDEs
 .vscode/
 .idea/
