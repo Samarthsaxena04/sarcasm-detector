@@ -22,6 +22,9 @@ venv.bak/
 # Track notebooks folder but ignore its contents
 notebooks/*
 !notebooks/.gitkeep
+
+# Ignore temporary Hugging Face clone
+sarcasm-detector-85accuracy/
 # VS Code / IDEs
 .vscode/
 .idea/
