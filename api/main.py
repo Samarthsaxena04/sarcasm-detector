@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 # Load model once at startup
-predictor = SarcasmPredictor(model_path="models/roberta_model")
+predictor = SarcasmPredictor(model_path="huggingsam32/sarcasm-detector-85accuracy")
 
 
 class Message(BaseModel):
